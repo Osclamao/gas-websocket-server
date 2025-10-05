@@ -17,4 +17,4 @@ RUN apt-get update && apt-get install -y git unzip \
 EXPOSE 8080
 
 # Run your Ratchet server when container starts
-CMD ["php", "websocket-server.php"]
+CMD ["php", "server.php"]
